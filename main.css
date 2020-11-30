@@ -202,24 +202,20 @@ body {
     min-height:50vh;
 }
 
-#hover-effect:before{
-	content:"\f204";
-}
-
-#hover-effect:hover:before{
-	content:"\f205";
-}
 
 
-.mail-div i{
+.icon-div i{
     font-size: 32px;
-    transition:0.2 linear;
+    transition:0.2s linear;
 }
 
-.mail-div:hover{
-    transform: scale(1.5);
+.icon-div:hover{
+    transform: scale(1.3);
 }
 
+.fa-envelope {
+    color: white;
+}
 
 /* scrollbar customisation for webkit browsers */
 body::-webkit-scrollbar {
