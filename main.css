@@ -201,7 +201,7 @@ body {
 
 .icon-div {
     font-size: 0.5rem;
-    transition:0.2s ease;
+    /* transition:0.2s ease; */
     position: relative;
     top: 2rem;
     z-index: 2;
@@ -298,42 +298,29 @@ body::-webkit-scrollbar-thumb {
     /* -webkit-transition: all 0.3s ease; */
     /* transition: all 0.3s ease; */
 }
-#cpMainContainer { display:block; }
 
-@media only screen and (orientation:portrait){
 
-  #main_container {
 
-    height: 100vw;
-
-    -webkit-transform: rotate(90deg);
-
-    -moz-transform: rotate(90deg);
-
-    -o-transform: rotate(90deg);
-
-    -ms-transform: rotate(90deg);
-
-    transform: rotate(90deg);
-
+ @media only screen and (max-width: 900px) {
+  .monitor  {
+    width: 100%;
+  }
+  .monitor img  {
+    width: 100%;
+  }
+  .monitor  #spam  {
+    width: 73%;
+    padding-top: 24%;
+  }
+  .spam-title{
+      display: block;
+      font-size: 2rem;
+      bottom: 6rem;
   }
 
-}
-
-@media only screen and (orientation:landscape){
-
-  #main_container {
-
-     -webkit-transform: rotate(0deg);
-
-     -moz-transform: rotate(0deg);
-
-     -o-transform: rotate(0deg);
-
-     -ms-transform: rotate(90deg);
-
-     transform: rotate(90deg);
-
+  .icon-div{
+    font-size: 0.8rem;
+    top: 5rem;
   }
 
 }
